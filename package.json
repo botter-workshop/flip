@@ -1,0 +1,17 @@
+{
+  "name": "flip",
+  "version": "1.0.0",
+  "description": "A koa-based REST template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Hanna",
+  "license": "ISC",
+  "dependencies": {
+    "kcors": "^1.2.1",
+    "koa": "^1.2.1",
+    "koa-bodyparser": "^2.2.0",
+    "koa-router": "^5.4.0"
+  }
+}
