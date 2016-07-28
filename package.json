@@ -4,14 +4,19 @@
   "description": "A koa-based REST template.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "encrypt": "encrypt config.json config.json.cast5",
+    "decrypt": "decrypt config.json.cast5 config.json"
   },
-  "author": "Ben Hanna",
+  "author": "Ben Hanna <ben.hanna@botter.ventures>",
   "license": "ISC",
   "dependencies": {
+    "config-leaf": "^0.2.0",
     "kcors": "^1.2.1",
+    "knex": "^0.11.9",
     "koa": "^1.2.1",
     "koa-bodyparser": "^2.2.0",
-    "koa-router": "^5.4.0"
+    "koa-router": "^5.4.0",
+    "mysql": "^2.11.1",
+    "requirefrom": "^0.2.0"
   }
 }
